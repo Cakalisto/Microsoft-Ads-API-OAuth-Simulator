@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import ast
-from selenium.webdriver import Edge
-from selenium.webdriver import DesiredCapabilities
+#from selenium.webdriver import Edge
+#from selenium.webdriver import DesiredCapabilities
 import re
 from selenium import webdriver
 import time
