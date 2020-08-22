@@ -7,7 +7,7 @@ from selenium import webdriver
 import time
 import tkinter
 import requests
-from tkinter.messagebox import showinfo
+#from tkinter.messagebox import showinfo
 
 #clientid for testing: 4c55fa54-0d2d-41d6-a140-69cd0ed098d1
 class Login():
@@ -49,8 +49,8 @@ class Login():
 
         #self.capabilities = DesiredCapabilities.CHROME
         #self.driver = Edge(capabilities=self.capabilities)
-        #self.driver = webdriver.Chrome () #(r'D:\Python\Python37\chromedriver.exe')
-        self.driver = webdriver.Chrome ()
+        self.driver = webdriver.Chrome (r'C:\chromedriver.exe')
+        #self.driver = webdriver.Chrome ()
 
     def start(self):
         clientid = self.id.get()
